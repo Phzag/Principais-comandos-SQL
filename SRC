@@ -1,0 +1,46 @@
+create database venda;
+SET SQL_SAFE_UPDATES = 0;
+Use venda;
+
+create table venda(
+    ID_venda int,
+    Curso Varchar(100),
+    Aluno varchar(100),
+    Estado varchar(100),
+    Valor decimal(10, 2)
+    );
+    
+insert into Venda(ID_venda, curso, aluno, estado, valor)
+values 
+(1, 'excel', 'João', 'SP', 100),
+(2, 'vba', 'Lucas', 'RJ', 50),
+(3, 'excel', 'Alice', 'SP', 100),
+(4, 'Excel', 'Pedro', "PE", 100),
+(5, 'VBA', 'Amanda', 'BA', 50),
+(6, 'Power BI', 'Rita', 'RS', 80),
+(7, 'Excel', 'Julia', 'RJ', 100),
+(8, 'Power BI', 'Caio', 'SP', 80),
+(9, 'Power BI', 'Lara', 'MG', 80), 
+(10, 'Excel', 'Rogério', 'AC', 100);
+    
+select * from venda;
+select Aluno, curso, valor from venda;
+
+select * from venda
+order by Aluno;
+
+select * from venda
+where estado = 'RJ';
+
+update venda 
+set valor = 150 
+where curso = 'vba';
+
+select * from venda;
+
+delete from venda 
+where ID_venda = 10;
+
+select * from venda;
+
+truncate table venda;
