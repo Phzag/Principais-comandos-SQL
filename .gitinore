@@ -1,0 +1,23 @@
+# Ignorar arquivos de banco de dados MySQL
+*.sql
+
+# Ignorar arquivos de sistema
+.DS_Store
+*.log
+*.tmp
+
+# Ignorar arquivos específicos de IDE
+.idea/
+*.swp
+*.swo
+
+# Ignorar arquivos específicos do sistema operacional
+Thumbs.db
+ehthumbs.db
+
+# Ignorar arquivos compilados
+*.class
+*.jar
+*.war
+*.pyc
+__pycache__/
