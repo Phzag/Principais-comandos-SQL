@@ -1,0 +1,12 @@
+O presente script SQL é utilizado para gerenciar uma base de dados simples denominada `venda`, projetada para armazenar registros de vendas de cursos. O banco de dados inclui informações sobre a venda, como o identificador da venda, o nome do curso, o nome do aluno, o estado do aluno e o valor da venda.
+
+O script realiza as seguintes operações:
+1. Criação do banco de dados `venda`.
+2. Criação da tabela `venda` com colunas para ID da venda, nome do curso, nome do aluno, estado e valor.
+3. Inserção de dados de exemplo na tabela `venda`.
+4. Execução de consultas para visualizar todos os dados, selecionar colunas específicas, ordenar os registros por nome do aluno e filtrar os registros por estado.
+5. Atualização dos valores das vendas de um curso específico.
+6. Exclusão de um registro específico da tabela.
+7. Limpeza de todos os registros da tabela.
+
+Estas operações demonstram a capacidade de manipular e consultar dados dentro do banco de dados `venda`. Use o script conforme necessário para configurar e testar o banco de dados.
